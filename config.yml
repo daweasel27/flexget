@@ -344,6 +344,29 @@ tasks:
       account: "{? trakt.account ?}"
       list: "{? trakt.series ?}"
       type: shows
+    series:
+      - Scandal (2012):
+          alternate_name: Scandal US
+      - Vikings (2013):
+          alternate_name: Vikings
+      - American Gods (2017):
+          alternate_name: American Gods
+      - The Simpsons (1989):
+          alternate_name: The Simpsons
+      - Mr. Robot (2015):
+          alternate_name: Mr. Robot
+      - Gotham (2014):
+          alternate_name: Gotham
+      - Game of Thrones (2011):
+          alternate_name: Game of Thrones
+      - Supernatural (2005):
+          alternate_name: Supernatural
+      - Castle Rock (2018):
+          alternate_name: Castle Rock
+      - Westworld (2016):
+          alternate_name: Westworld
+      - The Big Bang Theory (2007):
+          alternate_name: The Big Bang Theory
     accept_all: yes
     set:
       title: "{{tvdb_series_name|escape|replace('&#39;', '')}}"
