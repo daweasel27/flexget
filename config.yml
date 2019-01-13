@@ -408,6 +408,7 @@ tasks:
       - rss: https://www.limetorrents.cc/rss/20/
 
 
+
 ##### Discover and download older episodes and pilots from recently added series
 #
   download-series-discover:
@@ -431,8 +432,12 @@ tasks:
       from:
         - piratebay:
             category: highres tv
+            url: https://piratebaymirror.eu
         - limetorrents:
             category: tv
+        - rarbg:
+            category: [1, 18, 41, 49]
+        - search_rss: https://torrentz2.eu/feed?f=\{{search_term}}
 
 
 ########## ANIME ##########
