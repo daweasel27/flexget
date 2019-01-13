@@ -27,8 +27,8 @@ templates:
       settings:
         identified_by: ep
         timeframe: 16 hours
-        target: hdtv+ 720p !10bit !h265
-        quality: webrip+ 720p !10bit !h265
+        target: 1080p+ h264+
+        quality: 1080p+ h264+
         propers: 16 hours
         specials: no
         season_packs: yes
@@ -47,14 +47,14 @@ templates:
         entry_list: myanimelist-series
       settings:
         identified_by: sequence
-        quality: 720p !10bit !h265
+        quality: 720p+ h264+
         special_ids:
           - OVA
 
 ##### Anime movies config
 #
   anime-movies:
-    quality: 720p+ !10bit !h265
+    quality: 720p+ h264+
     content_size:
       min: 700
       max: 10000
