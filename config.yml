@@ -423,6 +423,7 @@ tasks:
     convert_magnet:
       timeout: 10 seconds
       force: yes
+    verify_ssl_certificates: no
     discover:
       release_estimations: strict
       interval: 15 minutes
@@ -433,10 +434,8 @@ tasks:
         - piratebay:
             category: highres tv
             url: https://piratebaymirror.eu
-            verify_ssl_certificates: no
         - limetorrents:
             category: tv
-            verify_ssl_certificates: no
         - rarbg:
             category: [1, 18, 41, 49]
         - search_rss: https://torrentz2.eu/feed?f=\{{search_term}}
