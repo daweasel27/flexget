@@ -432,7 +432,7 @@ tasks:
       from:
         - piratebay:
             category: highres tv
-            url: https://piratebaymirror.eu
+            url: https://piratebaymirror.eu1
         - limetorrents:
             category: tv
         - rarbg:
